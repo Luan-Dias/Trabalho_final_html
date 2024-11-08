@@ -1,0 +1,91 @@
+
+
+/* Estilo Seção Hero */
+section.hero{
+    height: 90vh;
+    background: url(../../imagens/bg5.jpg);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero .hero-txt{
+    width: 50%;
+    color: #00919E;
+}
+
+.hero .hero-txt p{
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Estilo Seção History */
+section.hist{
+    height: 900px;
+    background: linear-gradient(135deg, #012437, #00919E);
+}
+
+.hist .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hist h1{
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #eaeaea;
+    margin-bottom: 20px;
+}
+
+.hist .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hist .team{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hist .card-team h2{
+    color: #eaeaea;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.hist .team img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.hist .barra{
+    background-color: #eaeaea;
+    height: 100%;
+    width: 4px;
+    margin: 0 20px;
+}
+
+.hist .hist-txt{
+    min-width: 500px;
+}
+
+.hist .hist-txt p{
+    margin-top: 10px;
+    font-weight: 300;
+    color: #eaeaea;
+}

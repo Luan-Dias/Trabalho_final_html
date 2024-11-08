@@ -1,0 +1,146 @@
+
+/* Seção Contato */
+section.cntt{
+    background-color: #eaeaea;
+    height: 100vh;
+    width: 100%;
+}
+
+.cntt .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cntt form{
+    border: 2px solid #00919E;
+    border-radius: 20px;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+}
+
+.cntt .form-txt{
+    text-align: center;
+}
+
+.cntt .form-txt span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00919E;
+}  
+    
+.cntt .form-txt p{
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.cntt .input-frame{
+    position: relative;
+    margin: 25px 0;
+}
+
+.cntt .input-frame label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    cursor: text;
+}
+
+.cntt .input-frame .input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #00919E;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+form .input-frame .input:valid ~ label,
+form .input-frame .input:focus ~ label{
+    transition: 0.2s;
+    transform: translateY(-25px);
+    font-size: 0.8rem;
+    color: #00919E;
+}
+
+.cntt form .btn{
+    width: 100%;
+    text-align: center;
+}
+
+.cntt form button{
+    padding: 10px 40px;
+    border: 1px solid #00919E;
+    border-radius: 10px;
+    background-color: #eaeaea;
+    color: #00919E;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: .2s;
+}
+
+.cntt form button:hover{
+    background-color: #00919E;
+    color: #eaeaea;
+    transform: scale(1.1);
+}
+
+/* Seção Direct */
+section.drct{
+    background: linear-gradient(135deg, #012437, #00919E);
+    height: 60vh;
+    width: 100%;
+}
+
+.drct .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.drct .drct-txt{
+    text-align: center;
+    color: #eaeaea;
+}
+
+.drct .drct-txt span{
+    font-size: 2rem;
+    font-weight: 600;
+}  
+    
+.drct .drct-txt p{
+    margin: 10px 0;
+}
+
+.drct .drct-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.drct .drct-btn button{
+    display: flex;
+    width: 500px;
+    height: 5rem;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: transparent;
+    color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: .2s;
+}
+
+.drct .drct-btn button:hover{
+    color: #00919E;
+    background-color: #EAEAEA;
+}

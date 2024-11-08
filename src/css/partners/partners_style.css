@@ -1,0 +1,93 @@
+
+/* Estilo Seção Hero */
+section.hero{
+    height: 100vh;
+    background: url(../../imagens/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.hero .txt-hero{
+    color: #00919E;
+    width: 40%;
+}
+
+.hero .txt-hero h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hero .txt-hero p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.hero .logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero .logo .logo-bo{
+    width: 400px;
+}
+
+.hero .logo img{
+    width: 300px;
+}
+
+/* Estilo Seção Partners */
+section.partners{
+    height: 700px;
+    background: linear-gradient(135deg, #012437, #00919E);
+}
+
+.partners .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.partners .card-partners{
+    background-color: #eaeaea;
+    border-radius: 20px;
+    padding: 20px;
+    height: 500px;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-partners .logo-bo{
+    width: 400px;
+}
+
+.card-partners span img{
+    width:300px;
+}
+
+.card-partners .txt-partners p{
+    margin-top: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card-partners .txt-partners p a{
+    color: #000;
+    text-decoration: underline;
+}

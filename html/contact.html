@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/css/contact/contact_style.css">
+    <link rel="stylesheet" href="../src/css/contact/contact_responsive.css">
+    <link rel="stylesheet" href="../src/css/default/default_style.css">
+    <link rel="stylesheet" href="../src/css/default/default_responsive.css">
+    <!-- Script JS -->
+    <script src="../src/js/btn-menu-mobile.js" defer></script>
+    <!-- /Script JS -->    
+    <title>Contato - Frota Martins</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <section class="main-logo">
+                <a href="../index.html" rel="self">
+                    <img src="../src/imagens/logo-frota.png" alt="Logo Frota Martins">
+                </a>
+            </section>
+            <section class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html" rel="self">Início</a></li>
+                        <li><a href="about.html" rel="next">Sobre nós</a></li>
+                        <li><a href="partners.html" rel="next">Parceiros</a></li>
+                        <li><a href="services.html" rel="next">Serviços</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <a href="contact.html" rel="next">
+                    <button>Contato</button>
+                </a>
+            </section>
+
+            <div class="btn-menu-mobile" id="btn-menu-mobile">
+                <div class="line-menumob-1"></div>
+                <div class="line-menumob-2"></div>
+            </div>
+
+            <section class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html" rel="self">Início</a></li>
+                        <li><a href="about.html" rel="next">Sobre nós</a></li>
+                        <li><a href="partners.html" rel="next">Parceiros</a></li>
+                        <li><a href="services.html" rel="next">Serviços</a></li>
+                        <li><a href="contact.html" rel="next">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="cntt">
+            <div class="container">
+                <form method="post" action="../src/php/send.php">
+                    <div class="form-txt">
+                        <span>Solicite contato</span>
+                        <p>Preencha os dados abaixo que entraremos em contato com você</p>
+                    </div>
+                    <div class="input-frame">
+                        <input type="text" name="" id="box-nome" name="nome" class="input" required>
+                        <label for="box-nome">Seu nome</label>
+                    </div>
+                    <div class="input-frame">
+                        <input type="text" name="" id="box-email" name="email" class="input" required>
+                        <label for="box-email">Seu email</label>
+                    </div>
+                    <div class="input-frame">
+                        <input type="text" name="" id="box-phone" name="telefone" class="input" required>
+                        <label for="box-phone">Telefone para contato</label>
+                    </div>
+    
+                    <div class="btn">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="drct">
+            <div class="container">
+                <div class="drct-txt">
+                    <span>Fale conosco</span>
+                    <p>
+                        Se preferir, mande uma mensagem diretamente para nós
+                    </p>
+                </div>
+                <div class="drct-btn">
+                        <a href="mailto:frotamartins@gmail.com" target="_blank">
+                            <button><i class="bi bi-google"></i><p>Email</p></button>
+                        </a>
+                        <a href="https://wa.me/qr/3ELY2576ETSXA1" target="_blank">
+                            <button><i class="bi bi-whatsapp"></i><p>Whatsapp</p></button>
+                        </a>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Rodapé -->
+        <footer>
+            <div class="container">
+                <div class="upper-footer">
+
+                    <div class="txt-footer">
+                        <a href="../index.html" rel="self"><img src="../src/imagens/logo-frota-alt.png" alt="Logo Frota Martins"></a>
+                        <p>encantando clientes, vendendo soluções e gerando qualidade</p>
+                    </div>
+
+                    <div class="nav-footer">
+                        <span>Institucional</span>
+                        <nav>
+                            <ul>
+                                <li><a href="../index.html" rel="self">Início</a></li>
+                                <li><a href="about.html" rel="next">Sobre nós</a></li>
+                                <li><a href="partners.html" rel="next">Parceiros</a></li>
+                                <li><a href="services.html" rel="next">Serviços</a></li>
+                                <li><a href="contact.html" rel="next">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="social-medias">
+                        <span>Nossas redes sociais</span>
+                        <a href="https://www.linkedin.com/in/frota-martins-67bbaa21b/" target="_blank">
+                            <button><i class="bi bi-linkedin"></i><p>Linkedin</p></button>
+                        </a>
+                        <a href="https://www.instagram.com/frota_martins_representacoes/" target="_blank">
+                            <button><i class="bi bi-instagram"></i><p>Instagram</p></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bottom-footer">
+                    <hr>
+                    <p>Copyright &copy; 2024 Frota Martins, Todos os direitos reservados. Feito por <a href="wa.me/qr/C5VJP76LLQYJA1" target="_blank">Luan Dias</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>

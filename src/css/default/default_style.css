@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{ /* Configs padrão*/
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.container{
+    max-width: 78.75rem;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+/* Estilo do cabeçalho */
+header{
+    width: 100%;
+    padding: 0.625rem; /*10 px*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px); 
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .main-logo img{
+max-width: 7.5rem; /*120 px*/
+}
+
+header .menu nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu nav ul li:hover{
+    transition: .2s;
+    transform: scale(1.1);
+}
+
+header .menu nav ul li a{
+    color: #00919E;
+}
+
+header button {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #00919E;
+    border-radius: 10px;
+    color: #00919E;
+    cursor: pointer;
+    transition: .2s;
+}
+
+header button:hover{
+    color: #EAEAEA;
+    background-color: #00919E;
+    transform: scale(1.06);
+}
+
+/* Header Menu Mobile */
+header .btn-menu-mobile{
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+header .btn-menu-mobile div{
+    background-color: #00919E;
+    border-radius: 5px;
+    height: 4px;
+    margin: 10px 0;
+    transition: .2s;
+}
+
+header .btn-menu-mobile .line-menumob-1{
+    width: 30px;
+}
+
+header .btn-menu-mobile .line-menumob-2{
+    width: 20px;
+}
+
+header .btn-menu-mobile .line-menumob-1.ativo1{
+    transform: rotate(45deg) translate(30%);
+    background-color: #EAEAEA;
+}
+
+header .btn-menu-mobile .line-menumob-2.ativo2{
+    transform: rotate(-45deg) translate(30%);
+    width: 30px;
+    background-color: #EAEAEA;
+}
+
+header .menu-mobile{
+
+    width: 0;
+    height: 0;
+    background-color: #00919E;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    overflow: hidden;
+    transition: .5s;
+}
+
+header .menu-mobile nav{
+    width: 100%;
+}
+
+header .menu-mobile nav a{
+    font-size: 1.2rem;
+    color: #EAEAEA;
+    padding: 15px 0;
+    display: block;
+    transition: .2s;
+}
+
+header .menu-mobile nav a:hover{
+    background-color: #EAEAEA;
+    color: #00919E;
+    box-shadow: 0 0 20px #EAEAEA;
+}
+
+header .menu-mobile.abrir{
+    width: 100%;
+    height: 100vh;
+}
+
+body.no-overflow{
+    overflow: hidden;
+}
+
+/* Estilo Rodapé */
+footer{
+    background-color: #000607;
+    color: #EAEAEA;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .upper-footer{    
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-footer .txt-footer{
+    max-width: 300px;
+}
+
+.upper-footer .txt-footer img{
+    width: 150px;
+}
+
+.upper-footer .txt-footer p{
+    font-weight: 200;
+}
+
+.upper-footer .nav-footer span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.upper-footer .nav-footer li a{
+    color: #EAEAEA;
+    font-weight: 200;
+    transition: .2s;
+}
+
+.upper-footer .nav-footer li a:hover{
+    color: #00919E;
+}    
+
+.upper-footer .social-medias{
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-footer .social-medias span{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.upper-footer .social-medias button{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    margin: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: transparent;
+    color: #EAEAEA;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+.upper-footer .social-medias button:hover{
+    color: #00919E;
+    background-color: #EAEAEA;
+}
+
+footer .bottom-footer{
+    width: 100%;
+}
+
+footer .bottom-footer hr{
+    border: 1px solid #EAEAEA;
+}
+.bottom-footer p{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding: 10px 0;
+}
+.bottom-footer p a{
+    color: #EAEAEA;
+}

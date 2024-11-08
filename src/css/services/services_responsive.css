@@ -1,0 +1,87 @@
+
+/* Responsividade Mobile */
+@media screen and (max-width: 560px){
+    
+    /* Estilo seção hero */
+    .hero .txt-hero{
+        width: 80%;
+    }
+
+    .hero .txt-hero h1{
+        font-size: 2rem;
+    }
+
+    .hero .txt-hero p{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    /* Estilo seção us */
+    section.us{
+        height: 80vh;
+    }
+
+    .us .us-txt span{
+    font-size: 1.2rem;
+    }
+
+    .us .us-txt p{
+        font-size: 0.9rem;
+    }
+
+    .us .us-txt button{
+        width: 150px;
+    }
+
+    /* Estilo seção consult */
+
+    .consult .consult_upper h2{
+        font-size: 1.2rem;
+    }
+
+    .consult .consult_upper p{
+        font-size: .9rem;
+    }
+
+    .consult .item-wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .consult .item-card{
+        width: 100%;
+    }
+
+    .consult .item-card i{
+        font-size: 4rem;
+    }
+
+    .consult .item-card span{
+        font-size: 1.1rem;
+    }
+
+    .consult .item-card p{
+        font-size: .9rem;
+    }
+
+    .consult .project{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .consult .project-txt h2{
+        font-size: 1.2rem;
+    }
+
+    .consult .project-txt p{
+        margin-top: 10px;
+        font-size: .9rem;
+    }
+
+    .consult figure img{
+        width: 100%;
+    }
+}
+
+/* Responsividade HD */
+@media screen and (max-width: 800px){}

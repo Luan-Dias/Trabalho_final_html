@@ -1,0 +1,219 @@
+
+/* Responsividade para celulares */
+@media (max-width: 560px){
+
+    /* Responsivo da Home */
+    .home .txt-home h1{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .home .txt-home p{
+        font-size: .9rem;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+
+    .home .txt-home p span{
+        display: inline;
+    }
+
+    .home button{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Responsivo Seção Consultoria */
+    .consultoria h2{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .consultoria p {
+        font-size: 1rem;
+    }
+
+    .consultoria button{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Responsivo Seção Us */
+    section.us{
+        height: 100vh;
+    }
+
+    .us .container{
+        flex-direction: column;
+    }
+
+    .us .us-img{
+        margin: 0 0 20px 0;
+    }
+    
+    .us .us-img img{
+        width: 100%;
+    }
+    
+    .us .us-txt span{
+        font-size: 1.1rem;
+    }
+    
+    .us .us-txt p{
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    
+    .us .us-txt p span{
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+    
+    /* Responsivo Seção Depoimentos */
+    .depoimentos .container{
+        flex-direction: column;
+        width: 100%;
+    }
+        
+    .depoimentos .txt-depoimentos p{
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .depoimentos .card-depoimentos{
+        min-width: 200px;
+    }
+    
+    .depoimentos .card-depoimentos p{
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+        
+    .slider-wrapper .swiper-pagination{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+    
+    .slider-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+
+/* Responsividade telas HD */
+@media (min-width: 561px) and (max-width: 720px){
+
+    /* Responsivo da Home */
+    .home .txt-home h1{
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    .home .txt-home p{
+        font-size: .9rem;
+        font-weight: 400;
+        margin: 20px 0;
+    }
+
+    .home .txt-home p span{
+        display: inline;
+    }
+
+    .home button{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Responsivo Seção Consultoria */
+    .consultoria h2{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .consultoria p {
+        font-size: 1rem;
+    }
+
+    .consultoria button{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* Responsivo Seção Us */
+    section.us{
+        height: 100vh;
+    }
+
+    .us .container{
+        flex-direction: column;
+    }
+
+    .us .us-img{
+        margin: 0 0 20px 0;
+    }
+    
+    .us .us-img img{
+        width: 100%;
+    }
+    
+    .us .us-txt span{
+        font-size: 1.1rem;
+    }
+    
+    .us .us-txt p{
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    
+    .us .us-txt p span{
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+    
+    /* Responsivo Seção Depoimentos */
+    .depoimentos .container{
+        flex-direction: column;
+        width: 100%;
+    }
+        
+    .depoimentos .txt-depoimentos p{
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .depoimentos .card-depoimentos{
+        min-width: 200px;
+    }
+    
+    .depoimentos .card-depoimentos p{
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+        
+    .slider-wrapper .swiper-pagination{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .slider-wrapper .swiper-slide-button{
+        display: none;
+    }
+    
+    .slider-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+}

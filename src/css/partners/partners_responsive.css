@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 560px){
+        
+    /* Responsivo Seção Hero */
+
+    .hero .txt-hero{
+        width: 90%;
+    }
+
+    .hero .txt-hero h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .hero .txt-hero p{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .hero .logo-wrapper{
+        display: none;
+    }
+
+    /* Estilo Seção Partners */
+    section.partners{
+        height: auto;
+    }
+
+    .partners .container{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .partners .card-partners{
+        margin-top: 40px;
+        height: 100%;
+    }
+
+    .partners .card-partners:last-child{
+        margin-bottom: 40px;
+    }
+
+    .card-partners .logo-bo{
+        width: 300px;
+    }
+
+    .card-partners span img{
+        width:200px;
+    }
+
+}

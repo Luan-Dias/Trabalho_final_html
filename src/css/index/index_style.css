@@ -1,0 +1,244 @@
+
+
+/* Estilo da home */
+section.home{
+    height: 100vh;
+    background-image: url(../../imagens/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #00919E;
+}
+
+.home .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.home .txt-home h1{
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.home .txt-home h1 span{
+    display: block;
+    font-weight: 300;
+}
+
+.home .txt-home p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.home .txt-home p span{
+    display: block;
+}
+
+.home button{
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #00919E;
+    border-radius: 10px;
+    color: #00919E;
+    cursor: pointer;
+    transition: .2s;
+}
+.home button:hover{
+    color: #EAEAEA;
+    background-color: #00919E;
+    transform: scale(1.06);
+}
+
+/* Estilo seção consultoria */
+section.consultoria{
+    height: 50vh;
+    background-image: url(../../imagens/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    position: relative;
+    color: #EAEAEA;
+    text-align: center;
+}
+
+.consultoria > .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000d7;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.consultoria > .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+.consultoria h2{
+    font-size: 3rem;
+    line-height: 50px;
+    font-weight: 200;
+}
+
+.consultoria h2 span{
+    display: block;
+    font-weight: 600;
+}
+
+.consultoria p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+.consultoria button{
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    color: #EAEAEA;
+    cursor: pointer;
+    transition: .2s;
+}
+.consultoria button:hover{
+    color: #00919E;
+    background-color: #EAEAEA;
+    transform: scale(1.06);
+}
+
+/* Estilo seção nós */
+section.us{
+    height: 70vh;
+    background: url(../../imagens/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #EAEAEA;
+}
+
+.us .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us .us-img{
+    margin: 0 20px 0 0;
+}
+
+.us .us-img img{
+    width: 550px;
+    border-radius: 20px;
+}
+
+.us .us-txt span{
+    color: #00919E;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.us .us-txt p{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.us .us-txt p span{
+    display: block;
+    color: #EAEAEA;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: none;
+    margin-top: 20px;
+}
+
+.us .us-txt p span a{
+    color: #EAEAEA;
+}
+
+/* Estilo seção depoimentos */
+section.depoimentos{
+    height: 37.5rem;
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimentos .container{
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos .txt-depoimentos h3{
+    color: #00919E;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.depoimentos .txt-depoimentos p{
+    font-size: 2.2rem;
+    line-height: 50px;
+    font-weight: 600;
+}
+.depoimentos .txt-depoimentos p span{
+    display: block;
+}
+
+.depoimentos .card-depoimentos{
+    border: 1px solid #00919E;
+    border-radius: 10px;
+    height: 250px;
+    min-width: 300px;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimentos .card-depoimentos p{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.slider-wrapper .swiper-pagination{
+    width: 15px;
+    height: 15px;
+}
+.slider-wrapper .swiper-slide-button{
+    color: #00919E;
+}
+
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 620px;
+    margin: 0 10px;
+}
+

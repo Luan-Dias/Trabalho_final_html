@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 1000px){
+
+    /* Seção Contato */
+    .cntt .form-txt span{
+        font-size: 1.8rem;
+    }  
+        
+    .cntt .form-txt p{
+        font-size: .9rem;
+    }
+
+    .cntt .input-frame .input{
+        font-size: 1rem;
+    }
+
+    .cntt .input-frame label{
+        font-size: 0.9rem;
+    }
+
+    /* Seção Direct */
+    section.drct{
+        height: 80vh;
+    }
+
+    .drct .drct-txt span{
+        font-size: 1.8rem;
+    }  
+        
+    .drct .drct-txt p{
+        font-size: .9rem;
+    }
+
+    .drct .drct-btn button{
+        width: 350px;
+    }
+
+}

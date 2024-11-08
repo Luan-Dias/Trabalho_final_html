@@ -1,0 +1,54 @@
+
+@media screen and (max-width: 1000px){
+
+    /* Responsivo Cabeçalho */
+    header{
+        background-color: rgba(255, 255, 255, 0.2);
+    }    
+
+    header .menu, header button{
+        display: none;
+    }
+
+    header .btn-menu-mobile{
+        display: block;
+    }
+    
+    /* Responsivo Rodapé */
+    footer .upper-footer{    
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .upper-footer .txt-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .upper-footer .txt-footer p{
+        font-size: 0.9rem;
+        min-width: 225px;
+        margin-bottom: 20px;
+    }
+        
+    .upper-footer .nav-footer{
+        margin-bottom: 20px;
+    }
+
+    .upper-footer .social-medias span{
+        font-size: 0.95rem;
+    }
+
+    .upper-footer .social-medias button{
+        width: 100%;
+    }
+    
+    .bottom-footer p{
+        font-size: 0.56rem;
+    }
+}

@@ -1,0 +1,172 @@
+
+/* Estilo seção hero */
+section.hero{
+    height: 100vh;
+    background-image: url(../../imagens/bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #00919E;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero .txt-hero{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero .txt-hero h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.hero .txt-hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Estilo seção us */
+section.us{
+    height: 50vh;
+    background: linear-gradient(135deg, #012437, #00919E);
+}
+
+.us .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us .us-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #eaeaea;
+}
+
+.us .us-txt span{
+text-transform: uppercase;
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+.us .us-txt p{
+    font-weight: 300;
+}
+
+.us .us-txt button{
+    width: 170px;
+    height: 40px;
+
+    font-weight: 300;
+    color: #eaeaea;
+    background-color: transparent;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.us .us-txt button:hover{
+    background-color: #eaeaea;
+    color: #00919E;
+    transform: scale(1.1);
+}
+
+/* Estilo seção consult */
+section.consult{
+    height: auto;
+    background-color: #eaeaea;
+}
+
+.consult .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.consult .consult_upper h2{
+    margin-top: 50px;
+    color: #00919E;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.consult .consult_upper p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.consult .item-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.consult .item-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 300px;
+    height: 400px;
+
+    border: 1px solid #00919E;
+    background-color: #00919E;
+    color: #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+    transition: .2s;
+}
+
+.consult .item-card i{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.consult .item-card span{
+    font-weight: 500;
+}
+
+.consult .item-card p{
+    font-weight: 300;
+}
+
+.consult .project{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.consult .project-txt h2{
+    color: #00919E;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.consult .project-txt p{
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.consult figure img{
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+}
