@@ -2,6 +2,11 @@
 @media screen and (max-width: 1000px){
 
     /* Seção Contato */
+
+    section.cntt{
+        height: 100vh;
+    }    
+
     .cntt .form-txt span{
         font-size: 1.8rem;
     }  
