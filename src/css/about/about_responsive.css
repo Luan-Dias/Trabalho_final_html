@@ -2,10 +2,6 @@
 @media screen and (max-width: 560px){
 
     /* Responsivo Seção Hero */
-    section.hero{
-        height: 100vh;
-    }
-
     .hero .container{
         display: flex;
         align-items: center;

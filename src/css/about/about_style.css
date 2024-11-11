@@ -2,7 +2,7 @@
 
 /* Estilo Seção Hero */
 section.hero{
-    height: 90vh;
+    height: 100vh;
     background: url(../../imagens/bg5.jpg);
     background-position: initial;
     background-size: cover;
