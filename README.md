@@ -4,3 +4,4 @@ Consiste basicamente numa landing page, que objetiva levar os clientes a conhece
 O site conta com abas mostrando o "Sobre" da empresa, seus parceiros e serviços ofertados.
 
 Para esse desenvolvimento foi utilizado as tecnologias HTML, CSS e um pouco de JavaScript.
+O site está hospedado no Github pages, podendo ser acessado pelo link anexado ao repositório.
